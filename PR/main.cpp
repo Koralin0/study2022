@@ -5,13 +5,7 @@
 #define _USE_MATH_DEFINES
 using namespace std;
 
-double funcA(int, float, float);
-double funcA(int x, float y, float z)
-{
-	if (z + pow(M_E, 2 + x) != 0)
-		return pow(x, 2) * (x + 1) / cbrt(z + pow(M_E, 2 + x)) - pow(sin((x + y) * M_PI / 180), 2);
-	else return -99999999;
-}
+
 double funcB(int, float, float);
 double funcB(int x, float y, float z)
 {
@@ -34,12 +28,6 @@ int main()
 	}
 	else cout << "Error" << endl;
 
-	double A = funcA(x1, z1, y1);
-	if (A != -99999999)
-	{
-		A = funcA(x1, y1, z1);
-		cout << "A = " << A << endl;
-	}
-	else cout << "Error" << endl;
+
 }
 
