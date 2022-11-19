@@ -30,4 +30,5 @@ int main()
 			}
 			else
 				cout << "Error";
+	cout << sqrt(a*b)<<endl;
 }
