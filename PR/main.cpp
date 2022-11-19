@@ -41,6 +41,5 @@ int main()
 		cout << "A = " << A << endl;
 	}
 	else cout << "Error" << endl;
-
 }
 
