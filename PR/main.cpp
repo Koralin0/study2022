@@ -19,13 +19,7 @@ double funcB(int x, float y, float z)
 		return sqrt(abs(x - 6 * y) / z) + pow(cos(pow(x + z, 3) * M_PI / 180), 2) + sin(45 * M_PI / 180);
 	else return -99999999;
 }
-double func3(double, double);
-double func3(double A, double B)
-{
-	if ((A + B) >= 0)
-		return sqrt(A + B);
-	else return -99999999;
-}
+
 int main()
 {
 	int x1;
@@ -48,12 +42,5 @@ int main()
 	}
 	else cout << "Error" << endl;
 
-	double F = func3(A, B);
-	if (F != -99999999)
-	{
-		F = func3(A, B);
-		cout << "F = " << F << endl;
-	}
-	else cout << "Error" << endl;
 }
 
