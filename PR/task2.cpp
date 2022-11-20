@@ -30,5 +30,5 @@ int main()
 			}
 			else
 				cout << "Error";
-	cout << sqrt(a*b)<<endl;
+	cout << pow(a*b, 2) << endl;
 }
